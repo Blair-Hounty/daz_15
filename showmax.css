@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+    color: beige;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    padding-left: 500px;
+}
+.we{
+    color: aqua;
+}
+.w{
+    color: palevioletred;
+}
+
+ul li{
+    display: inline-block;
+    padding: 15px 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+    border: 1px solid beige;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.sas a {
+    background-color: aliceblue;
+    color: #000;
+}
+.ded{
+    background-color: rgb(0, 0, 13);
+    height: 100vh;
+}
+.let{
+    display: flex;
+    gap: 40px;
+    color: beige;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.let img{
+    width: 900px;
+}
+.rev{
+
+    padding-left: 40px;
+    width: 500px;
+}
+.rev h1{
+    padding-bottom: 30px;
+    font-size:30px;
+    
+}
+.rev p{
+    padding-bottom: 20px;
+}
+.rev button{
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    background-color: rgb(215, 73, 97);
+    color: beige;
+    border: none;
+    border-radius: 30px;
+}
+.q{
+    background-color: rgb(0, 0, 14);
+    color: beige;
+}
+.m{
+    text-align: center;
+    padding: 50px;
+}
+.m h1{
+    padding-bottom: 20px;
+}
+.m p{
+    padding-bottom: 20px;
+}
+.m button{
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: rgb(80, 176, 233);
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+.eat{
+    background-image: url('./late.jpg');
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.low h1{
+    text-align: center;
+    padding-top: 30px; 
+    font-size: 30px; }
+.ki{
+    padding: 10px;
+}
+.ki p{
+    padding: 30px;
+    font-size: 20px;
+}
+.pun{
+    background-color: black;
+    color: bisque;
+}
+footer ul li   {
+    padding: 30px;
+
+} 
+footer ul li a{
+    border: none;
+    text-decoration: none;
+} 
+.pun hr{
+    padding-top: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-right: none;
+    border-left: none;
+    
+}
+footer p{
+    padding-left: 500px;
+}
+footer ul li::after{
+    content: '';
+    display: block;
+    width:0 ;
+    height: 2px;
+    transition: all.45s ease;
+    background-color: beige;
+    margin: auto;
+}
+footer ul li:hover::after{
+    width: 90%;
+}
